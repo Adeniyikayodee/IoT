@@ -11,15 +11,15 @@ export default {
     console.log('IoT component created')
     let that = this
 
-    // LOOK! YOU WILL NEED TO UPDATE THESE VALUES!
-    const currentlySubscribedTopic = 'askJames'
+    // VARIABLES
+    const currentlySubscribedTopic = 'kayodeIoT'
     const AWSConfiguration = {
-      poolId: 'us-east-1:d12345-1234-1234-1234', // 'YourCognitoIdentityPoolId'
-      host: 'abc123123123-ats.iot.us-east-1.amazonaws.com', // 'YourAwsIoTEndpoint', e.g. 'prefix.iot.us-east-1.amazonaws.com'
+      poolId: 'us-east-1_rNXEDcy3E', // 'CognitoIdentityPoolId'
+      host: 'XXX', // 'AwsIoTEndpoint', e.g. 'prefix.iot.us-east-1.amazonaws.com'
       region: 'us-east-1' // 'YourAwsRegion', e.g. 'us-east-1'
     }
 
-    const clientId = 'askJames-' + (Math.floor((Math.random() * 100000000) + 1))
+    const clientId = 'kayodeIoT' + (Math.floor((Math.random() * 100000000) + 1))
     AWS.config.region = AWSConfiguration.region
 
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({

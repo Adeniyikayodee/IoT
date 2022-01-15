@@ -15,6 +15,12 @@ You will need:
 # install dependencies
 npm install
 
+# CreatePool on AWS-Cognito
+AWS Cognito and click Create a User Pool, Copy Pool ID
+
+# CreateAthing on AWS-IOT
+Click ‘Manage’ (the ‘Things’ sub-category is auto-selected), click ‘Create Things’ and ‘Create a single thing’
+
 # serve with hot reload at localhost:8080
 npm run dev
 

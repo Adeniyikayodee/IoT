@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <h1>{{ message }}</h1>
+    <h1>Real-time message shows below</h1>
+    <h2>{{ message }}</h2>
     <IoT/>
   </div>
 </template>
@@ -12,7 +13,7 @@ export default {
   name: 'App',
   data: () => {
     return {
-      message: 'Waiting for a message...'
+      message: 'Waiting for a message from back-end...'
     }
   },
   components: {
