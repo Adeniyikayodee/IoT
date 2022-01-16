@@ -14,9 +14,9 @@ export default {
     // VARIABLES
     const currentlySubscribedTopic = 'kayodeIoT'
     const AWSConfiguration = {
-      poolId: 'us-east-1_rNXEDcy3E', // 'CognitoIdentityPoolId'
-      host: 'XXX', // 'AwsIoTEndpoint', e.g. 'prefix.iot.us-east-1.amazonaws.com'
-      region: 'us-east-1' // 'YourAwsRegion', e.g. 'us-east-1'
+      poolId: 'us-west-2_O7qBGttQz', // 'CognitoIdentityPoolId'
+      host: 'a1hh9tz62gsvfw-ats.iot.us-west-2.amazonaws.com', // 'AwsIoTEndpoint', e.g. 'prefix.iot.us-east-1.amazonaws.com'
+      region: 'us-west-2' // 'YourAwsRegion', e.g. 'us-east-1'
     }
 
     const clientId = 'kayodeIoT' + (Math.floor((Math.random() * 100000000) + 1))
